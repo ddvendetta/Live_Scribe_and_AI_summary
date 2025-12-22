@@ -9,6 +9,15 @@ This is a Streamlit application that provides live transcription and summarizati
 -   **Audio Recording:** Can record audio from a selected input source.
 -   **Data Saving:** Saves the meeting audio and transcript to files.
 
+## Development Environment
+
+This application was developed and tested on a **MacBook Air M4 with 16GB of RAM**.
+
+-   **Whisper Model:** `mlx-community/whisper-small-mlx`
+-   **Ollama Model:** `llama3.2:1b`
+
+Due to hardware constraints, these models were chosen to maintain a stable memory utilization of approximately **12GB**.
+
 ## How to Run
 
 1.  Install the dependencies:
