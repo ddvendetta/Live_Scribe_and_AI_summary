@@ -15,11 +15,11 @@ from datetime import datetime
 # The Ear: Fast, accurate, optimized for M-chips
 WHISPER_MODEL = "mlx-community/whisper-small-mlx"
 # The Brain: Small, fast, low-RAM usage
-OLLAMA_MODEL = "llama3.2:1b" 
+OLLAMA_MODEL = "qwen3:0.6b" 
 
 SAMPLE_RATE = 16000
 CHUNK_DURATION = 7  # Transcribe every 5 seconds
-SUMMARY_INTERVAL = 10 # Process summaries every 10 transcribed chunks (approx 50s)
+SUMMARY_INTERVAL = 25 # Process summaries every 10 transcribed chunks (approx 50s)
 
 # --- STATE MANAGEMENT ---
 if 'recording' not in st.session_state:
